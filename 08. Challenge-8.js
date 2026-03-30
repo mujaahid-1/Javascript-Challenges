@@ -9,6 +9,7 @@ Given a non-negative integer, 3 for example, return a string with a murmur: "1 s
 
 // Fundamentals                 Strings
 var countSheep = function (num) {
+  
   // My version
   let result = "";
   for (let i = 0; i < num; i++) {
