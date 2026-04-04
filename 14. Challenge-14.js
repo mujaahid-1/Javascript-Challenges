@@ -1,0 +1,25 @@
+// Convert a Number to a String!
+
+/*
+We need a function that can transform a number (integer) into a string.
+
+What ways of achieving this do you know?
+
+Examples (input --> output):
+123  --> "123"
+999  --> "999"
+-100 --> "-100"
+*/
+
+// Strings                            Fundamentals.
+
+function numberToString(num) {
+  
+  // My version
+  return String(num);
+
+  // Another version
+  return num.toString();
+}
+
+console.log(numberToString(1234));
